@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #736f63;
+}
+
+.navBar li {
+  float: left;
+}
+
+.navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #d49708;
+}
+
+.heroBackground {
+  width: 100%;
+  height: auto;
+}
+.productsTitle {
+  text-align: center;
+}
+.productGrid {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto;
+  align-content: center;
+}
+.productImg {
+  width: 100px;
+  height: auto;
+}
